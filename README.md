@@ -4,4 +4,4 @@ List of projects:
 
 1 - java txt file manipulator = a simple script with mentods for creating a txt file, writing into it and reading the contents and outputing them on the CLI.
 
-2 - 
+2 - Java Simple Thread program. This application is a standard producer/consumer scenario that makes use of the 'extends Thread' way of implemeting a threads.
