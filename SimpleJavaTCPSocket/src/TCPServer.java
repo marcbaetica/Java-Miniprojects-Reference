@@ -16,7 +16,7 @@ public class TCPServer {
 		
 		while(true) {
 		
-			Socket svrsock = listensock.accept(); //calling the accept method when a client connection is requested returns a connection Socket object
+			Socket svrsock = listensock.accept(); //this is is a blocking call.. which means that the application is blocked until a connection is made. when a client connection is requested returns a connection Socket object
 			
 			BufferedReader inFromClient = new BufferedReader(new InputStreamReader(svrsock.getInputStream())); //ok so esentially these three commands in one line create an input stream reader from machine language(InputStreamReader) to human language(BufferedReader) and attach it to the socket
 			clientSentence = inFromClient.readLine(); //client request is red from socket and stored as a String
