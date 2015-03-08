@@ -9,3 +9,6 @@ List of projects:
 3 - Java GUI using JFrame
 
 4 - A basic TCP Java Socket for use as a framework
+
+
+To do: add client class to tcp app
